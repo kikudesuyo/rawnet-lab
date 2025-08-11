@@ -1,0 +1,13 @@
+version: "3"
+services:
+  playground:
+    container_name: "golang"
+    hostname: "golang"
+    build: .
+    restart: always
+    working_dir: "/cmd"
+    tty: true
+    volumes:
+      - type: bind
+        source: ../cmd
+        target: /cmd

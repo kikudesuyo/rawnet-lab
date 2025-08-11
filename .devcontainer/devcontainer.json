@@ -1,0 +1,13 @@
+{
+  "name": "docker-playground - golang",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "playground",
+  "workspaceFolder": "/cmd",
+  "remoteUser": "root",
+
+  "customizations": {
+    "vscode": {
+      "extensions": ["EditorConfig.EditorConfig", "golang.Go"]
+    }
+  }
+}
