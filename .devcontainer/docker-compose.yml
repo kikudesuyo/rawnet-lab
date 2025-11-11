@@ -4,7 +4,7 @@ services:
     container_name: "golang"
     hostname: "golang"
     build: .
-    restart: always
+    restart: "no"
     working_dir: "/cmd"
     tty: true
     volumes:
